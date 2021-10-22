@@ -31,6 +31,10 @@ class AuthViewController: UIViewController {
         setupLayout()
     }
 
+}
+
+extension AuthViewController {
+
     private func setupLayout() {
         view.addSubview(logoImageView)
         view.addSubview(stackView)
@@ -45,8 +49,6 @@ class AuthViewController: UIViewController {
             make.leading.trailing.equalToSuperview().inset(40)
         }
     }
-
-
 }
 
 // MARK: - SwiftUI Content preview
