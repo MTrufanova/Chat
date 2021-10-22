@@ -9,12 +9,21 @@
 /* Begin PBXBuildFile section */
 		4607A75327219F5700135508 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4607A75227219F5700135508 /* AppDelegate.swift */; };
 		4607A75527219F5700135508 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4607A75427219F5700135508 /* SceneDelegate.swift */; };
-		4607A75727219F5700135508 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4607A75627219F5700135508 /* StartViewController.swift */; };
+		4607A75727219F5700135508 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4607A75627219F5700135508 /* AuthViewController.swift */; };
 		4607A75C27219F5800135508 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4607A75B27219F5800135508 /* Assets.xcassets */; };
 		4607A75F27219F5800135508 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4607A75D27219F5800135508 /* LaunchScreen.storyboard */; };
 		4607A76A27219F5800135508 /* ChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4607A76927219F5800135508 /* ChatTests.swift */; };
 		4607A77427219F5800135508 /* ChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4607A77327219F5800135508 /* ChatUITests.swift */; };
 		4607A77627219F5800135508 /* ChatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4607A77527219F5800135508 /* ChatUITestsLaunchTests.swift */; };
+		4607A7842721BAAB00135508 /* UIButton + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4607A7832721BAAB00135508 /* UIButton + Extension.swift */; };
+		4607A7862721BCCC00135508 /* UIFont + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4607A7852721BCCC00135508 /* UIFont + Extension.swift */; };
+		4607A7892721BE8000135508 /* UIColor + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4607A7882721BE8000135508 /* UIColor + Extension.swift */; };
+		4607A78B2721BEE100135508 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4607A78A2721BEE100135508 /* Colors.xcassets */; };
+		4607A78D2721C29E00135508 /* UILabel + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4607A78C2721C29E00135508 /* UILabel + Extension.swift */; };
+		4607A78F2721C37C00135508 /* UIImageView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4607A78E2721C37C00135508 /* UIImageView + Extension.swift */; };
+		4607A7912721C41A00135508 /* UIImage + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4607A7902721C41A00135508 /* UIImage + Extension.swift */; };
+		4607A7942722A6AD00135508 /* ButtonFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4607A7932722A6AD00135508 /* ButtonFormView.swift */; };
+		4607A7962722B0BF00135508 /* UIStackView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4607A7952722B0BF00135508 /* UIStackView + Extension.swift */; };
 		6098D94FB9B2887E83F4DA46 /* Pods_ChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5AB81D7D0F5877A217F6352 /* Pods_ChatTests.framework */; };
 		6394AFEE1DEDDDB31F99F758 /* Pods_Chat_ChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 863DF11B08EE0EA722A8AE67 /* Pods_Chat_ChatUITests.framework */; };
 		6E3E1CAAF4045E267AD149BE /* Pods_Chat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0683BE75C4E2975AB3CCCB3 /* Pods_Chat.framework */; };
@@ -42,7 +51,7 @@
 		4607A74F27219F5700135508 /* Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4607A75227219F5700135508 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4607A75427219F5700135508 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4607A75627219F5700135508 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		4607A75627219F5700135508 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		4607A75B27219F5800135508 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4607A75E27219F5800135508 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4607A76027219F5800135508 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +60,15 @@
 		4607A76F27219F5800135508 /* ChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4607A77327219F5800135508 /* ChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatUITests.swift; sourceTree = "<group>"; };
 		4607A77527219F5800135508 /* ChatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4607A7832721BAAB00135508 /* UIButton + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton + Extension.swift"; sourceTree = "<group>"; };
+		4607A7852721BCCC00135508 /* UIFont + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont + Extension.swift"; sourceTree = "<group>"; };
+		4607A7882721BE8000135508 /* UIColor + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extension.swift"; sourceTree = "<group>"; };
+		4607A78A2721BEE100135508 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		4607A78C2721C29E00135508 /* UILabel + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel + Extension.swift"; sourceTree = "<group>"; };
+		4607A78E2721C37C00135508 /* UIImageView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView + Extension.swift"; sourceTree = "<group>"; };
+		4607A7902721C41A00135508 /* UIImage + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage + Extension.swift"; sourceTree = "<group>"; };
+		4607A7932722A6AD00135508 /* ButtonFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFormView.swift; sourceTree = "<group>"; };
+		4607A7952722B0BF00135508 /* UIStackView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView + Extension.swift"; sourceTree = "<group>"; };
 		603B431D22EF6CAA8BB6D34A /* Pods-ChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatTests.debug.xcconfig"; path = "Target Support Files/Pods-ChatTests/Pods-ChatTests.debug.xcconfig"; sourceTree = "<group>"; };
 		863DF11B08EE0EA722A8AE67 /* Pods_Chat_ChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chat_ChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		920BB45E05087FEB12D96DD9 /* Pods-Chat-ChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chat-ChatUITests.debug.xcconfig"; path = "Target Support Files/Pods-Chat-ChatUITests/Pods-Chat-ChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -116,8 +134,10 @@
 			children = (
 				4607A75227219F5700135508 /* AppDelegate.swift */,
 				4607A75427219F5700135508 /* SceneDelegate.swift */,
-				4607A75627219F5700135508 /* StartViewController.swift */,
+				4607A7972722B27100135508 /* AuthScene */,
+				4607A7872721BD4600135508 /* Extensions */,
 				4607A75B27219F5800135508 /* Assets.xcassets */,
+				4607A78A2721BEE100135508 /* Colors.xcassets */,
 				4607A75D27219F5800135508 /* LaunchScreen.storyboard */,
 				4607A76027219F5800135508 /* Info.plist */,
 			);
@@ -139,6 +159,37 @@
 				4607A77527219F5800135508 /* ChatUITestsLaunchTests.swift */,
 			);
 			path = ChatUITests;
+			sourceTree = "<group>";
+		};
+		4607A7872721BD4600135508 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4607A7932722A6AD00135508 /* ButtonFormView.swift */,
+				4607A7922722A42000135508 /* UIKit */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4607A7922722A42000135508 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				4607A7852721BCCC00135508 /* UIFont + Extension.swift */,
+				4607A7832721BAAB00135508 /* UIButton + Extension.swift */,
+				4607A7882721BE8000135508 /* UIColor + Extension.swift */,
+				4607A78C2721C29E00135508 /* UILabel + Extension.swift */,
+				4607A78E2721C37C00135508 /* UIImageView + Extension.swift */,
+				4607A7902721C41A00135508 /* UIImage + Extension.swift */,
+				4607A7952722B0BF00135508 /* UIStackView + Extension.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		4607A7972722B27100135508 /* AuthScene */ = {
+			isa = PBXGroup;
+			children = (
+				4607A75627219F5700135508 /* AuthViewController.swift */,
+			);
+			path = AuthScene;
 			sourceTree = "<group>";
 		};
 		5AF702D5E771FD5102ED590B /* Pods */ = {
@@ -274,6 +325,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4607A78B2721BEE100135508 /* Colors.xcassets in Resources */,
 				4607A75F27219F5800135508 /* LaunchScreen.storyboard in Resources */,
 				4607A75C27219F5800135508 /* Assets.xcassets in Resources */,
 			);
@@ -420,9 +472,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4607A75727219F5700135508 /* StartViewController.swift in Sources */,
+				4607A7862721BCCC00135508 /* UIFont + Extension.swift in Sources */,
+				4607A7942722A6AD00135508 /* ButtonFormView.swift in Sources */,
+				4607A75727219F5700135508 /* AuthViewController.swift in Sources */,
+				4607A78D2721C29E00135508 /* UILabel + Extension.swift in Sources */,
 				4607A75327219F5700135508 /* AppDelegate.swift in Sources */,
+				4607A78F2721C37C00135508 /* UIImageView + Extension.swift in Sources */,
+				4607A7962722B0BF00135508 /* UIStackView + Extension.swift in Sources */,
+				4607A7912721C41A00135508 /* UIImage + Extension.swift in Sources */,
+				4607A7892721BE8000135508 /* UIColor + Extension.swift in Sources */,
 				4607A75527219F5700135508 /* SceneDelegate.swift in Sources */,
+				4607A7842721BAAB00135508 /* UIButton + Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
